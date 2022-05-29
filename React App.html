@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.descarga"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.App {
+  padding-top: 10px;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.logo-henry-contenedor {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.henry-logo {
+  height: 40px;
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWlCO0VBQ2pCLHlCQUF5QjtFQUN6Qiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtFQUNaLGFBQWE7RUFDYixhQUFhO0VBQ2IseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQix1QkFBdUI7QUFDekIiLCJzb3VyY2VzQ29udGVudCI6WyIuQXBwIHtcbiAgcGFkZGluZy10b3A6IDEwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxYjFiMzI7XG4gIGZvbnQtZmFtaWx5OiBMYXRvLCBzYW5zLXNlcmlmO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LXdyYXA6IHdyYXA7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBwYWRkaW5nLWJvdHRvbTogMTBweDtcbn1cblxuLmxvZ28taGVucnktY29udGVuZWRvciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDUwcHg7XG4gIG1hcmdpbjogOHB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLmZpbGEge1xuICBtYXJnaW46IDRweDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi5oZW5yeS1sb2dvIHtcbiAgaGVpZ2h0OiA0MHB4O1xufVxuXG4uY29udGVuZWRvci1jYWxjdWxhZG9yYSB7XG4gIHdpZHRoOiA0MDBweDtcbiAgaGVpZ2h0OiA2MDBweDtcbiAgcGFkZGluZzogMTRweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzk5YzlmZjtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgYm9yZGVyOiA1cHggc29saWQgd2hpdGU7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9ob2phLWRlLWVzdGlsb3MvYm90b24uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLGFBQWE7RUFDYixTQUFTO0VBQ1QsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtFQUNuQixpQkFBaUI7RUFDakIsZUFBZTtFQUNmLHlCQUF5QjtFQUN6QixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixXQUFXO0VBQ1gsZUFBZTtFQUNmLHlCQUFpQjtVQUFqQixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0IiLCJzb3VyY2VzQ29udGVudCI6WyIuYm90b24tY29udGVuZWRvciB7XHJcbiAgaGVpZ2h0OiA4M3B4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleDogMSAxO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgZm9udC1zaXplOiAzOHB4O1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxYjFiMzI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDI1cHg7XHJcbiAgYm9yZGVyOiAycHggc29saWQgd2hpdGU7XHJcbiAgbWFyZ2luOiA0cHg7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIHVzZXItc2VsZWN0OiBub25lO1xyXG59XHJcblxyXG4uYm90b24tY29udGVuZWRvcjpob3ZlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzVhMDFhNztcclxufVxyXG5cclxuLm9wZXJhZG9yIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA0NzFiO1xyXG59XHJcblxyXG4ub3BlcmFkb3I6aG92ZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNmZjY2MDA7XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.input {
+  height: 75px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #0a0a23;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  border: 1px solid #888;
+  box-shadow: 1px 4px 1px 1px white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9ob2phLWRlLWVzdGlsb3MvcGFudGFsbGEuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLG1CQUFtQjtFQUNuQixtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLHlCQUF5QjtFQUN6QixtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZix5QkFBeUI7RUFDekIsWUFBWTtFQUNaLDRCQUE0QjtFQUM1QixzQkFBc0I7RUFDdEIsaUNBQWlDO0FBQ25DIiwic291cmNlc0NvbnRlbnQiOlsiLmlucHV0IHtcclxuICBoZWlnaHQ6IDc1cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNTBweDtcclxuICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGZvbnQtc2l6ZTogMzBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMGEwYTIzO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiAxMXB4IDMwcHggMTFweCAxMXB4O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICM4ODg7XHJcbiAgYm94LXNoYWRvdzogMXB4IDRweCAxcHggMXB4IHdoaXRlO1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+  border-radius: 45px;
+}
+.boton-clear:hover {
+  background-color: #ebb000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9ob2phLWRlLWVzdGlsb3MvYm90b24tY2xlYXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2IsU0FBTztFQUNQLHlCQUF5QjtFQUN6QixlQUFlO0VBQ2YsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixpQkFBaUI7RUFDakIsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixlQUFlO0VBQ2YseUJBQWlCO1VBQWpCLGlCQUFpQjtFQUNqQixtQkFBbUI7QUFDckI7QUFDQTtFQUNFLHlCQUF5QjtBQUMzQiIsInNvdXJjZXNDb250ZW50IjpbIi5ib3Rvbi1jbGVhciB7XHJcbiAgaGVpZ2h0OiA4MHB4O1xyXG4gIGZvbnQtc2l6ZTogMS42ZW07XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4OiAxO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNhYzAyNDY7XHJcbiAgbWFyZ2luLXRvcDogOHB4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlcjogMnB4IHNvbGlkIHdoaXRlO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICB1c2VyLXNlbGVjdDogbm9uZTtcclxuICBib3JkZXItcmFkaXVzOiA0NXB4O1xyXG59XHJcbi5ib3Rvbi1jbGVhcjpob3ZlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ViYjAwMDtcclxufVxyXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><link type="text/css" rel="stylesheet" charset="UTF-8" href="./React App_files/translateelement.css"></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="logo-henry-contenedor"><img class="henry-logo" src="data:image/png;base64,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" alt="logo de henry"></div><div class="contenedor-calculadora"><div class="input"></div><div class="fila"><div class="boton-contenedor">1</div><div class="boton-contenedor">2</div><div class="boton-contenedor">3</div><div class="boton-contenedor operador">+</div></div><div class="fila"><div class="boton-contenedor">4</div><div class="boton-contenedor">5</div><div class="boton-contenedor">6</div><div class="boton-contenedor operador">-</div></div><div class="fila"><div class="boton-contenedor">7</div><div class="boton-contenedor">8</div><div class="boton-contenedor">9</div><div class="boton-contenedor operador">*</div></div><div class="fila"><div class="boton-contenedor operador">CE</div><div class="boton-contenedor">0</div><div class="boton-contenedor">.</div><div class="boton-contenedor operador">/</div></div><div class="fila"><div class="boton-contenedor">=</div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    --><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./React App_files/translate_24dp.png" width="20" height="20" alt="Google Traductor de Google"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+  
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
